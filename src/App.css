@@ -1,0 +1,139 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media  screen and (max-width: 600px){
+  td,th{
+    padding-left:none;
+    width: auto;
+
+  }
+  #send{
+    width: 70%;
+  }
+}
+ td,th{
+  padding-left: 70px;
+  width: 50px;
+
+  @media screen and (max-width: 600px){
+    
+      padding-left: 0px;
+      /* width: auto; */
+  
+    }
+}
+/* td{
+  text-align: center;
+} */
+a.brand-logo{
+  text-align: center;
+  width: 800px;
+
+}
+a.active{
+  width: 50%;
+}
+a{
+  width: 50%;
+}
+#navbar{
+  width: 800px;
+  margin-top: 20px;
+}
+#send{
+  text-align: center;
+  width: 350px;
+  height: 50px;
+  background-color: #e57373;
+
+ 
+}
+
+.waves-effect{
+  width: 175px;
+  margin: 20px;
+  height: 45px;
+  background-color: #e57373;
+}
+
+.content{
+  padding: 20px;
+  background-color: rgba(224, 224, 224, 0.5);
+  /* color: white; */
+  padding-bottom: 35px;
+  width: 800px;
+}
+
+.btn:hover {
+  background-color: rgba(226, 140, 140, 0.8)
+}
+
+.input-field input[type]:not([readonly]),
+    .input-field input[type]:focus:not([readonly]),
+    .input-field textarea:not([readonly]),
+    .input-field textarea:focus:not([readonly]) {
+        border-bottom: 1px solid #e57373;
+        box-shadow: 0 1px 0 0 #e57373;
+}
+
+
+
+.lol input[type]:not([readonly]),
+    .lol input[type]:focus:not([readonly]),
+    .lol textarea:not([readonly]),
+    .lol textarea:focus:not([readonly]) {
+        border-bottom: 1px solid #e57373;
+        box-shadow: 0 1px 0 0 #e57373;
+}
+
+/* Inactive/Active Default input label color */
+.input-field  input[type]:focus:not([readonly])+label,
+.input-field textarea:focus:not([readonly])+label {
+    color: #e72727;
+    text-align: center;
+}
+
+.lol input[type]:focus:not([readonly])+label,
+.lol textarea:focus:not([readonly])+label {
+    color: #e72727;
+    text-align: center;
+}
+
+.check{
+  padding-left: 40px;
+}
